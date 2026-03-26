@@ -1,0 +1,22 @@
+cat << 'EOF' > .gitignore
+# Fichiers de compilation C++
+*.o
+*.out
+main
+test
+
+# Bibliothèques et temporaires
+*.a
+*.so
+*.dylib
+
+# Fichiers OS
+.DS_Store
+._*
+__MACOSX/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+EOF
